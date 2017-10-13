@@ -1,20 +1,20 @@
 <?php
-	function So_chinh_phuong()
+	function so_chinh_phuong()
 	{
 		$x;
-		$ket_qua = sqrt($x);
-		if($x > 0)
-		{		
-			if($ket_qua == int($ketqua))
+		if(x>0)
+		{
+			$ket_qua = sqrt($x);
+			if($ket_qua == int($ket_qua))
 			{
-				echo "la so chinh phuong";
+				echo "la so chinh phuong";	
 			}
 			else
-			{
 				echo "khong la so chinh phuong";	
-			}
-		}
+		}	
 		else
-			echo "So ban vua nhap khong hop le";
+		{
+				echo "so ban vua nhap khong hop le";
+		}
 	}
 ?>
