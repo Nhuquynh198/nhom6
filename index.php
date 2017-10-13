@@ -49,6 +49,10 @@ function so_chan($x)
 		 }
 
 }
-
+function tich($a,$b)
+{
+	return $a*$b;
+	echo tich();	
+}
 ?>
 
