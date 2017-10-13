@@ -1,4 +1,22 @@
+
 <?php
+
+
+
+
+function thuong($a=8,$b=4) {
+
+	return $a/$b;
+	
+	
+	
+	
+	
+	}
+	echo thuong();
+
+
+
 	function so_chinh_phuong()
 	{
 		$x;
@@ -17,4 +35,31 @@
 				echo "so ban vua nhap khong hop le";
 		}
 	}
+
+
+function so_chan($x)
+{
+	  if( $x%2==0)
+	  {
+		  echo "x la so chan";
+		}
+		
+	 else { 
+	        echo "Số lẻ";
+		 }
+
+}
+function tich($a,$b)
+{
+	return $a*$b;
+	echo tich();	
+}
+
+function hieu($a,$b)
+{
+	return $a-$b;
+	echo hieu();	
+}
+
 ?>
+
