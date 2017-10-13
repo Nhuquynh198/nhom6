@@ -60,6 +60,11 @@ function hieu($a,$b)
 	return $a-$b;
 	echo hieu();	
 }
+function hamTinhTong($num1, $num2)
+{
+$sum = $num1 + $num2;
+echo "Tổng hai số là: $sum";
+}
 
 ?>
 
