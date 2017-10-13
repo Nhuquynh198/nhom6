@@ -1,20 +1,4 @@
-
-
-
-<?php 
-
-function thuong($a=8,$b=4) {
-
-	return $a/$b;
-	
-	
-	
-	
-	
-	}
-	echo thuong();
-
-
+<?php
 	function so_chinh_phuong()
 	{
 		$x;
@@ -34,4 +18,3 @@ function thuong($a=8,$b=4) {
 		}
 	}
 ?>
-
