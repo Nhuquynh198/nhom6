@@ -54,5 +54,12 @@ function tich($a,$b)
 	return $a*$b;
 	echo tich();	
 }
+
+function hieu($a,$b)
+{
+	return $a-$b;
+	echo hieu();	
+}
+
 ?>
 
