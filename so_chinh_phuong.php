@@ -1,9 +1,4 @@
 <?php
-
-
-
-
-
 	function so_chinh_phuong()
 	{
 		$x;
@@ -22,21 +17,4 @@
 				echo "so ban vua nhap khong hop le";
 		}
 	}
-	
-
-function so_chan($x)
-{
-	  if( $x%2==0)
-	  {
-		  echo "x la so chan";
-		}
-		
-	 else { 
-	        echo "Số lẻ";
-		 }
-
-}
-
-?>
-
 ?>
