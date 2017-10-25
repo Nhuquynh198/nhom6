@@ -1,6 +1,19 @@
+
 <?php
 
 
+
+
+function thuong($a=8,$b=4) {
+
+	return $a/$b;
+	
+	
+	
+	
+	
+	}
+	echo thuong();
 
 
 
@@ -22,7 +35,7 @@
 				echo "so ban vua nhap khong hop le";
 		}
 	}
-	
+
 
 function so_chan($x)
 {
@@ -39,4 +52,3 @@ function so_chan($x)
 
 ?>
 
-?>
